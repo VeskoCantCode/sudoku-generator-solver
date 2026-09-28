@@ -41,7 +41,8 @@ void unsafeCopy() {
     cout << destination << endl;
 }
 
-// 5. SQL Injection - simulated exampleeee
+// 5. SQL Injection - simulated exampleeeee
+void sqlInjection() {
     string username;
 
     cout << "Username: ";
