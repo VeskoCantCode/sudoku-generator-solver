@@ -149,7 +149,7 @@ void Board::printBoard() const{
 }
 
 [[noreturn]] int main() {
-    const auto board = std::make_unique<Board>();
+    const auto board = new Board();
     int n;
 
     std::cout << "WELCOME TO MY SUDOKU GENERATOR/SOLVER!\n";
